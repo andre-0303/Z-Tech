@@ -1,0 +1,119 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+section {
+    flex: 1;
+}
+
+nav {
+    background-color: #d16446;
+    height: 130px;
+}
+
+.nav-item {
+    transition: all 0.5s;
+}
+
+.nav-item:hover {
+    transform: translateY(-5px);
+}
+
+[data-bs-theme="dark"] {
+    background-color: #212529;
+    color: white;
+}
+
+[data-bs-theme="dark"] nav {
+    background-color: #343a40;
+}
+
+[data-bs-theme="dark"] footer {
+    background-color: #343a40;
+}
+
+[data-bs-theme="dark"] img {
+    background-color: #bebcbc;
+}
+
+[data-bs-theme="dark"] .card {
+    border: 2px solid #000;
+    color: #fff;
+}
+
+[data-bs-theme="dark"] .card-body {
+    background-color: #343a40;
+}
+
+[data-bs-theme="light"] {
+    background-color: white;
+    color: black;
+}
+
+[data-bs-theme="light"] nav {
+    background-color: #d16446;
+}
+
+.card {
+    width: 18rem;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.card-body {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: beige;
+}
+
+.card-img-top {
+    border: 1px solid black;
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    background-color: rgb(255, 255, 255);
+}
+
+.btn {
+    border: 1px solid black;
+    background-color: #da5c3a;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background-color: #f85325;
+    border-color: black;
+    transform: translateY(-10px);
+    color: #fff;
+}
+
+footer {
+    width: 100%;
+    margin-top: 300px;
+    background-color: #de5833;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#next {
+    padding: 12px;
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+}
+
+#add-cart {
+    width: 150px;
+    height: 50px;
+    margin-right: 10px;
+    padding-top: -30px;
+}
